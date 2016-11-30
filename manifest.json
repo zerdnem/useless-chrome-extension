@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "A useless extension",
+    "description": "Remove something",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs", "https://twitter.com/"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    }
+}
